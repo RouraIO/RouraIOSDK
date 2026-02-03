@@ -1,10 +1,10 @@
 {
-  "originHash" : "d3b2ecad79ed0711c707330c6bbd6ec0cd48d2e1688a3ff494b61fc7fb33638b",
+  "originHash" : "9dc08280076cae6157e31e0e8be3ea9a2e5448a2ce9c777b190c81806d7c218f",
   "pins" : [
     {
       "identity" : "rioexperimentationkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/RouraIO/RIOExperimentationKit.git",
+      "location" : "git@github.com:RouraIO/RIOExperimentationKit.git",
       "state" : {
         "revision" : "dcb9d643b49c9e261886f075a2e9921235fbc158",
         "version" : "1.0.0"

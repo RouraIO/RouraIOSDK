@@ -22,19 +22,19 @@ let package = Package(
     ],
     dependencies: [
         // Core
-//        .package(url: "https://github.com/RouraIO/RIODesignSystem.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIOFoundation.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIOImageKit.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIOLoggerKit.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIONetworking.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIOSwiftUI.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIODesignSystem.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOFoundation.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOImageKit.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOLoggerKit.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIONetworking.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOSwiftUI.git", from: "1.0.0"),
 
         // Features
-//        .package(url: "https://github.com/RouraIO/RIOAppleSignIn.git", from: "1.0.0"),
-        .package(url: "https://github.com/RouraIO/RIOExperimentationKit.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIOGoogleSignIn.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIOHapticsKit.git", from: "1.0.0"),
-//        .package(url: "https://github.com/RouraIO/RIOPurchaseKit.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOAppleSignIn.git", from: "1.0.0"),
+        .package(url: "git@github.com:RouraIO/RIOExperimentationKit.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOGoogleSignIn.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOHapticsKit.git", from: "1.0.0"),
+//        .package(url: "git@github.com:RouraIO/RIOPurchaseKit.git", from: "1.0.0"),
     ],
     targets: [
         // =====================================================
