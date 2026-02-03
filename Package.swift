@@ -14,11 +14,11 @@ let package = Package(
     ],
     products: [
         // Bundle products (what apps will add)
-//        .library(name: "RouraIOAuth", targets: ["RouraIOAuthTarget"]),
-//        .library(name: "RouraIOCommerce", targets: ["RouraIOCommerceTarget"]),
-//        .library(name: "RouraIOCore", targets: ["RouraIOCoreTarget"]),
-        .library(name: "RouraIOExperiments", targets: ["RouraIOExperimentsTarget"]),
-//        .library(name: "RouraIOExtras", targets: ["RouraIOExtrasTarget"]),
+//        .library(name: "RouraIOAuth", targets: ["RouraIOAuth"]),
+//        .library(name: "RouraIOCommerce", targets: ["RouraIOCommerce"]),
+//        .library(name: "RouraIOCore", targets: ["RouraIOCore"]),
+        .library(name: "RouraIOExperiments", targets: ["RouraIOExperiments"]),
+//        .library(name: "RouraIOExtras", targets: ["RouraIOExtras"]),
     ],
     dependencies: [
         // Core
@@ -42,7 +42,7 @@ let package = Package(
         // =====================================================
 
 //        .target(
-//            name: "RouraIOAuthTarget",
+//            name: "RouraIOAuth",
 //            dependencies: [
 //                .product(name: "RIOAppleSignIn", package: "RIOAppleSignIn"),
 //                .product(name: "RIOGoogleSignIn", package: "RIOGoogleSignIn"),
@@ -50,14 +50,14 @@ let package = Package(
 //        ),
 //
 //        .target(
-//            name: "RouraIOCommerceTarget",
+//            name: "RouraIOCommerce",
 //            dependencies: [
 //                .product(name: "RIOPurchaseKit", package: "RIOPurchaseKit"),
 //            ]
 //        ),
 //
 //        .target(
-//            name: "RouraIOCoreTarget",
+//            name: "RouraIOCore",
 //            dependencies: [
 //                .product(name: "RIODesignSystem", package: "RIODesignSystem"),
 //                .product(name: "RIOFoundation", package: "RIOFoundation"),
@@ -69,14 +69,14 @@ let package = Package(
 //        ),
 
         .target(
-            name: "RouraIOExperimentsTarget",
+            name: "RouraIOExperiments",
             dependencies: [
                 .product(name: "RIOExperimentationKit", package: "RIOExperimentationKit"),
             ]
         ),
 
 //        .target(
-//            name: "RouraIOExtrasTarget",
+//            name: "RouraIOExtras",
 //            dependencies: [
 //                .product(name: "RIOHapticsKit", package: "RIOHapticsKit"),
 //            ]
@@ -87,28 +87,28 @@ let package = Package(
         // =====================================================
 
 //        .testTarget(
-//            name: "RouraIOAuthTargetTests",
-//            dependencies: ["RouraIOAuthTarget"]
+//            name: "RouraIOAuth+UnitTests",
+//            dependencies: ["RouraIOAuth"]
 //        ),
 //
 //        .testTarget(
-//            name: "RouraIOCommerceTargetTests",
-//            dependencies: ["RouraIOCommerceTarget"]
+//            name: "RouraIOCommerce+UnitTests",
+//            dependencies: ["RouraIOCommerce"]
 //        ),
 //
 //        .testTarget(
-//            name: "RouraIOCoreTargetTests",
-//            dependencies: ["RouraIOCoreTarget"]
+//            name: "RouraIOCore+UnitTests",
+//            dependencies: ["RouraIOCore"]
 //        ),
 
         .testTarget(
-            name: "RouraIOExperimentsTarget+UnitTests",
-            dependencies: ["RouraIOExperimentsTarget"]
+            name: "RouraIOExperiments+UnitTests",
+            dependencies: ["RouraIOExperiments"]
         ),
 
 //        .testTarget(
-//            name: "RouraIOExtrasTargetTests",
-//            dependencies: ["RouraIOExtrasTarget"]
+//            name: "RouraIOExtras+UnitTests",
+//            dependencies: ["RouraIOExtras"]
 //        ),
     ]
 )
