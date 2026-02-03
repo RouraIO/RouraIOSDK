@@ -14,7 +14,7 @@ let package = Package(
     ],
     products: [
         // Bundle products (what apps will add)
-//        .library(name: "RouraIOAuth", targets: ["RouraIOAuth"]),
+        .library(name: "RouraIOAuth", targets: ["RouraIOAuth"]),
 //        .library(name: "RouraIOCommerce", targets: ["RouraIOCommerce"]),
 //        .library(name: "RouraIOCore", targets: ["RouraIOCore"]),
         .library(name: "RouraIOExperiments", targets: ["RouraIOExperiments"]),
@@ -32,7 +32,7 @@ let package = Package(
         // Features
 //        .package(url: "git@github.com:RouraIO/RIOAppleSignIn.git", from: "1.0.0"),
         .package(url: "git@github.com:RouraIO/RIOExperimentationKit.git", from: "1.0.0"),
-//        .package(url: "git@github.com:RouraIO/RIOGoogleSignIn.git", from: "1.0.0"),
+        .package(url: "git@github.com:RouraIO/RIOGoogleSignIn.git", from: "1.0.1"),
 //        .package(url: "git@github.com:RouraIO/RIOHapticsKit.git", from: "1.0.0"),
 //        .package(url: "git@github.com:RouraIO/RIOPurchaseKit.git", from: "1.0.0"),
     ],
@@ -41,14 +41,14 @@ let package = Package(
         // MARK: Bundle Targets (thin wrappers)
         // =====================================================
 
-//        .target(
-//            name: "RouraIOAuth",
-//            dependencies: [
+        .target(
+            name: "RouraIOAuth",
+            dependencies: [
 //                .product(name: "RIOAppleSignIn", package: "RIOAppleSignIn"),
-//                .product(name: "RIOGoogleSignIn", package: "RIOGoogleSignIn"),
-//            ]
-//        ),
-//
+                .product(name: "RIOGoogleSignIn", package: "RIOGoogleSignIn"),
+            ]
+        ),
+
 //        .target(
 //            name: "RouraIOCommerce",
 //            dependencies: [
