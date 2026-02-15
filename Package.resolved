@@ -1,5 +1,5 @@
 {
-  "originHash" : "0b52d6975db6036ae24b8cc3db6ab155212a5aa2f9a81405eec7b7f421cf5c2f",
+  "originHash" : "be596905e0aae3398350a4a426bf1d5de91a32b10c48d978c547c83f1ffac9cb",
   "pins" : [
     {
       "identity" : "app-check",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/openid/AppAuth-iOS.git",
       "state" : {
-        "revision" : "2781038865a80e2c425a1da12cc1327bcd56501f",
-        "version" : "1.7.6"
+        "revision" : "145104f5ea9d58ae21b60add007c33c1cc0c948e",
+        "version" : "2.0.0"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleSignIn-iOS.git",
       "state" : {
-        "revision" : "65fb3f1aa6ffbfdc79c4e22178a55cd91561f5e9",
-        "version" : "8.0.0"
+        "revision" : "913b4005ea26aebe1c97d54e35ad82a515924c71",
+        "version" : "9.1.0"
       }
     },
     {
@@ -51,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GTMAppAuth.git",
       "state" : {
-        "revision" : "5d7d66f647400952b1758b230e019b07c0b4b22a",
-        "version" : "4.1.1"
+        "revision" : "56e0ccf09a6dd29dc7e68bdf729598240ca8aa16",
+        "version" : "5.0.0"
       }
     },
     {
@@ -62,6 +62,24 @@
       "state" : {
         "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
         "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "rioapplesignin",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:RouraIO/RIOAppleSignIn.git",
+      "state" : {
+        "revision" : "99fde754ba1481065915905aee166d39a47fea74",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "riodesign.system",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:Roura-io/riodesign.system.git",
+      "state" : {
+        "revision" : "bb8cda3081e7679c7f06d1df376b54cda1e17f07",
+        "version" : "0.0.27"
       }
     },
     {
@@ -78,8 +96,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:RouraIO/RIOGoogleSignIn.git",
       "state" : {
-        "revision" : "5f41c3feb75c100e6643703c6e4bdf21fcf7df39",
-        "version" : "1.0.1"
+        "revision" : "5c85902c171dc987158aacb64e43a18af2646a0a",
+        "version" : "1.0.2"
       }
     }
   ],

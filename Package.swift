@@ -16,13 +16,13 @@ let package = Package(
         // Bundle products (what apps will add)
         .library(name: "RouraIOAuth", targets: ["RouraIOAuth"]),
 //        .library(name: "RouraIOCommerce", targets: ["RouraIOCommerce"]),
-//        .library(name: "RouraIOCore", targets: ["RouraIOCore"]),
+        .library(name: "RouraIOCore", targets: ["RouraIOCore"]),
         .library(name: "RouraIOExperiments", targets: ["RouraIOExperiments"]),
 //        .library(name: "RouraIOExtras", targets: ["RouraIOExtras"]),
     ],
     dependencies: [
         // Core
-//        .package(url: "git@github.com:RouraIO/RIODesignSystem.git", from: "1.0.0"),
+        .package(url: "git@github.com:Roura-io/riodesign.system.git", from: "0.0.1"),
 //        .package(url: "git@github.com:RouraIO/RIOFoundation.git", from: "1.0.0"),
 //        .package(url: "git@github.com:RouraIO/RIOImageKit.git", from: "1.0.0"),
 //        .package(url: "git@github.com:RouraIO/RIOLoggerKit.git", from: "1.0.0"),
@@ -30,7 +30,7 @@ let package = Package(
 //        .package(url: "git@github.com:RouraIO/RIOSwiftUI.git", from: "1.0.0"),
 
         // Features
-//        .package(url: "git@github.com:RouraIO/RIOAppleSignIn.git", from: "1.0.0"),
+        .package(url: "git@github.com:RouraIO/RIOAppleSignIn.git", from: "1.0.0"),
         .package(url: "git@github.com:RouraIO/RIOExperimentationKit.git", from: "1.0.0"),
         .package(url: "git@github.com:RouraIO/RIOGoogleSignIn.git", from: "1.0.1"),
 //        .package(url: "git@github.com:RouraIO/RIOHapticsKit.git", from: "1.0.0"),
@@ -44,7 +44,7 @@ let package = Package(
         .target(
             name: "RouraIOAuth",
             dependencies: [
-//                .product(name: "RIOAppleSignIn", package: "RIOAppleSignIn"),
+                .product(name: "RIOAppleSignIn", package: "RIOAppleSignIn"),
                 .product(name: "RIOGoogleSignIn", package: "RIOGoogleSignIn"),
             ]
         ),
@@ -55,18 +55,13 @@ let package = Package(
 //                .product(name: "RIOPurchaseKit", package: "RIOPurchaseKit"),
 //            ]
 //        ),
-//
-//        .target(
-//            name: "RouraIOCore",
-//            dependencies: [
-//                .product(name: "RIODesignSystem", package: "RIODesignSystem"),
-//                .product(name: "RIOFoundation", package: "RIOFoundation"),
-//                .product(name: "RIOImageKit", package: "RIOImageKit"),
-//                .product(name: "RIOLoggerKit", package: "RIOLoggerKit"),
-//                .product(name: "RIONetworking", package: "RIONetworking"),
-//                .product(name: "RIOSwiftUI", package: "RIOSwiftUI"),
-//            ]
-//        ),
+
+        .target(
+            name: "RouraIOCore",
+            dependencies: [
+                .product(name: "RIODesignSystem", package: "riodesign.system"),
+            ]
+        ),
 
         .target(
             name: "RouraIOExperiments",
